@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fatechanger">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Opening_Screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Menu" />
+        <activity android:name=".Studentone" />
+        <activity android:name=".Teacherone" />
+        <activity android:name=".Someoneone" />
+        <activity android:name=".sharepage" />
+        <activity android:name=".Home" />
+        <activity android:name=".Location" />
+        <activity android:name=".photovideo" />
+        <activity android:name=".Donation" />
+        <activity android:name=".ips" />
+        <activity android:name=".studentlearnmore" />
+        <activity android:name=".firstlearn" />
+        <activity android:name=".spread" />
+        <activity android:name=".write" />
+        <activity android:name=".changefate" />
+        <activity android:name=".teachertwo"></activity>
+    </application>
+
+</manifest>
